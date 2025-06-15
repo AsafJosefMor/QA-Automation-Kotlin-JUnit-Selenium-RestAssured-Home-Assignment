@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: aura.automation.tests.api.ApiScenarioTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.58 s <<< FAILURE! -- in aura.automation.tests.api.ApiScenarioTest
+aura.automation.tests.api.ApiScenarioTest.testApiCreateUiEditPost -- Time elapsed: 51.85 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <REMOVED> but was: <ACTIVE>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at aura.automation.tests.api.ApiScenarioTest.testApiCreateUiEditPost(ApiScenarioTest.kt:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
